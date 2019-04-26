@@ -1,0 +1,135 @@
+/* Stylesheet for Mobile Web App */
+/* GOOGLE FONTS 
+
+font-family 'Dokdo',cursive;
+
+*/
+/* Reset */
+html,body,div,p,ul,ol,li,h1,h2,h3,h4,h5,h6 
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	background-color: mediumseagreen;
+}
+
+div#container
+{
+	width:100%;	
+	border:3px dashed teal;
+	background-color:deepskyblue;
+}
+
+header{
+	width:94.2%;
+	padding:50px;
+	background-color: dimgrey;
+}
+
+header h1{
+	color:darkblue;
+	font-family: 'Dokdo', cursive;
+	font-size: 1.8em;
+}
+
+div#content{
+	width:100%;
+	background-color:lemonchiffon;
+}
+
+/*
+nav{
+	background-color: darkkhaki;
+	color:ghostwhite;
+	font-family: sans-serif;
+	font-size: 1.5em;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li a{
+	float:left;	
+	display:block;
+	padding:5px 15px;
+	border-right: 1px solid #af904a;
+	color:ghostwhite;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	background-color:antiquewhite;
+	color:darkslategray;
+}
+/*
+nav{
+	background-color: goldenrod;
+	color:darkblue;
+	font-family: sans-serif;
+	font-size: 1.25em;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li a{
+	float:left;	
+	display:block;
+	padding:5px 15px;
+	border-right: 1px dotted#af904a;
+	color:red;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	background-color:antiquewhite;
+	color:darkslategray;
+}
+*/
+.icon-bar {
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  background-color: #505;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 25px 0;
+  transition: all 0.3s ease;
+  color: deepskyblue;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #ff09a8;
+}
+/*
+footer{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:50px;
+	background-color: chocolate;	
+}
+div.keepOpen{
+	clear: both;
+}
+@media screen and (max-width: 600px) {
+	div#container{
+		width:100%;
+	}
+	
+	nav ul li a{
+		float:none;	
+		text-align:center;
+	}
+}
+*/
