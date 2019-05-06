@@ -37,7 +37,7 @@ header h1{
 
 div#content{
 	width:100%;
-	background-color:lemonchiffon;
+	background-color:white;
 }
 
 /*
@@ -104,11 +104,11 @@ nav ul li a:hover{
 }
 
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: mediumslateblue;
 }
 
 .active {
-  background-color: #ff09a8;
+  background-color: violet; /* #ff09a8(pinkish), #ff1803fe(red)
 }
 /*
 footer{
