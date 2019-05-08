@@ -1,35 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8"> 
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Mobile App</title>
-<link type="text/css" rel="stylesheet" href="../style.css">
-    <link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+<!DOCTYPE HTML>
+<html>
 <body>
-   <div id="container">
-       <header id="head">
-           <h1>Storm The Gates </h1>
-           <img src="Logo.png" width="100px" height="100px">
-    </header>
-       <div id="content">
-           <h3>New Products</h3>
-           <img scr="" alt="Product#1" id="product">
-           
-       </div>
-        <div class="icon-bar"> 
-           <a class="active" href="index.html"> <i class="fa fa-home"></i></a>
-           <a href="lib/products.html"><i class="fa fa-search"></i></a>
-           <a href="lib/services.html"><i class="fa fa-envelope"></i></a>
-           <a href="lib/partners.html"><i class="fa fa-envelope"></i></a>
-           <a href="contacts.html"><i class="fa fa-trash"></i></a>
-           </div>
-<!--       -->
-         </div>
-<!--CLOCK CLOCK CLOCK CLOCK CLOCK-->
-    <canvas id = "canvas" width = "300" height = "300"></canvas>
+
+<canvas id = "canvas" width = "600" height = "600" style = "background-color:black"></canvas>
     
 <script>// draws black square
   var canvas = document.getElementById("canvas");
@@ -58,8 +31,10 @@ setInterval(drawClock, 1000);
         ctx.fill();
         
         grad = ctx.createRadialGradient(0,0,radius*0.95,0,0,radius*1.05);
-        grad.addColorStop(0.25,"mediumvioletred");
-        grad.addColorStop(1, "black");
+        grad.addColorStop(0.25,"blue");
+        grad.addColorStop(0.50, "red");
+        grad.addColorStop(0.75, "yellow");
+        grad.addColorStop(1.00, "green");
         ctx.strokeStyle = grad;
         ctx.lineWidth = radius*0.1;
         ctx.stroke();
@@ -114,7 +89,8 @@ setInterval(drawClock, 1000);
         ctx.stroke();
         ctx.rotate(-pos);
     }
-// end draw clock
+
     </script>
-     </body>
+   
+  </body>
 </html>
