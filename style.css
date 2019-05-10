@@ -10,7 +10,14 @@ html,body,div,p,ul,ol,li,h1,h2,h3,h4,h5,h6
 	margin:0;
 	padding:0;
 }
-
+.center{
+margin:0 auto;
+text-align: center;
+}
+.displayThig{
+display: inline-block;
+margin: 0 10px;
+}
 body
 {
 	background-color: blueviolet;
@@ -37,7 +44,7 @@ header h1{
 
 div#content{
 	width:100%;
-	background-color:deepskyblue;
+	background-color:lightskyblue
 }
 
 /*
@@ -86,7 +93,7 @@ nav ul li a:hover{
 }
 */
 .icon-bar {
-  position:absolute;
+  position:fixed;
   bottom:0;
   width: 100%;
   background-color: #505;
